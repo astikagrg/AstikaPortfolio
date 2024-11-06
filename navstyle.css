@@ -1,0 +1,36 @@
+nav {
+    background-color: #fff; 
+    /* padding: 10px 10px;  */
+}
+
+.nav-links {
+    list-style-type: none; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 0; 
+    padding: 0; 
+    gap: 20px;
+}
+
+.nav-links li {
+    display: flex; 
+    align-items: center; 
+}
+
+.nav-links a {
+    text-decoration: none; 
+    color: #000; 
+    display: flex;
+    align-items: center; 
+}
+
+.hover-gif {
+    width: 70px; 
+    height: auto; 
+    margin-right: 3px; 
+}
+
+.text {
+    font-size: 16px; 
+}
